@@ -1,0 +1,85 @@
+.container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+   
+.input-container {
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 40px;
+  
+}
+
+input[type="text"],
+input[type="number"] {
+    
+    margin-right: 60px;
+    margin-left: 60px;
+    font-size: 42%;
+    border-radius: 10px;
+    border: 2px double rgb(86, 86, 86) ;
+}
+
+    button {
+    
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        /* on'a espacement de 10 pixels en haut et en bas, et de 20 pixels à gauche et à droite du contenu du bouton. */
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+
+        margin: 30px auto; /* 50px de marge en haut et en bas, et 'auto' pour la marge à gauche et à droite, ce qui centre horizontalement le bouton */
+    
+        cursor: pointer;
+        border-radius: 5px;
+        /* Animation pour le bouton Enregistrer
+        animation: fadeIn 1s ease-in-out; */
+}
+
+
+            /* Styles pour le tableau */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            border-bottom: 2px double #0c0c0c;
+            border-right: 2px double #080808; /* Ajout de bordures droites */
+        }
+
+        th {
+            background-color: #f4f7f7;
+            border-top: 2px double #090808; /* Ajout de bordure supérieure pour les cellules d'en-tête */
+        }
+
+        #total {
+            text-align: right;
+            border: 1px solid #bebcbc ; /* Bordure de 1 pixel solide de couleur */
+            padding: 15px; /* Espacement interne de 10 pixels */
+            
+        }
+
+        h1 {
+            
+            text-align: center; /* Centre le texte à l'intérieur du bloc */
+            margin-top: 20px; /* Ajoute un espacement en haut du titre */
+            margin-bottom: 80px; /* Ajoute un espacement en bas du titre */
+            color: #0a0a0a; /* Couleur du texte */
+            font-size: 30px; /* Taille de la police */
+            font-weight: bold; /* Gras */
+            background-color: #eaeaee; 
+        }
+
+
+

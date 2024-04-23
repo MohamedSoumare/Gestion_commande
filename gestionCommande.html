@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gestionnaire de commandes</title>
+
+   <link rel="stylesheet" href="./gestionCommande.css">
+   <script src="./gestionCommande.js" ></script>
+
+</head>
+<body>
+    <div  class="container">
+
+        <h1>Gestionnaire de commandes</h1>
+
+        <div class="input-container">
+
+        <form>
+
+            <input type="text" id="produit" name="produit" placeholder="Produit"  autofocus required>
+            <input type="number" id="quantite" name="produit" placeholder="Quantité" required>
+            <input type="number" id="prix"  name="prix" placeholder="Prix" required>
+            <button  onclick="ajoutCommande()">Enregistrer</button>
+           
+        </form>
+
+    </div>
+
+        <h2>Liste des commandes enregistrées</h2>
+
+        <table id="orderTable">
+            <thead>
+                <tr>
+                    <th>Produit</th>
+                    <th>Quantité</th>
+                    <th>Prix </th>
+                    <th>Montant</th>
+                </tr>
+            </thead>
+            <tbody id="orderList">
+                <!-- Les lignes seront ajoutées ici dynamiquement -->
+            </tbody>
+        </table>
+
+        <p id="total">TOTAL : <span id="totalAmount">0</span></p>
+
+
+    </div>
+  
+ 
+</body>
+</html>
